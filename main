@@ -1,0 +1,11 @@
+import tkinter as tk
+
+form= tk.Tk()
+form.title("Tkinter")
+etiket=tk.Label(text="Tkinter python")
+etiket.pack()
+etiket2=tk.Label(text="Selman Yıldırım")
+etiket2.pack()
+etiket3= tk.Label(text="Merhaba Dünya!")
+etiket3.pack()
+form.mainloop()
